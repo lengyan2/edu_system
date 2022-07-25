@@ -1,0 +1,24 @@
+2022-07-13 16:23:33.596 [INFO ] [main] [] com.example.edu.application [55] - Starting application using Java 1.8.0_322 on daiyuanjingdeMacBook-Pro.local with PID 26805 (/Users/daiyuanjing/IdeaProjects/guli_parent/service/service-edu/target/classes started by daiyuanjing in /Users/daiyuanjing/IdeaProjects/guli_parent)
+2022-07-13 16:23:33.598 [INFO ] [main] [] com.example.edu.application [634] - No active profile set, falling back to 1 default profile: "default"
+2022-07-13 16:23:33.960 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [262] - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-13 16:23:33.961 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-13 16:23:33.968 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [201] - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2022-07-13 16:23:34.020 [WARN ] [main] [] org.mybatis.spring.mapper.ClassPathMapperScanner [44] - Skipping MapperFactoryBean with name 'teacherMapper' and 'com.example.edu.mapper.TeacherMapper' mapperInterface. Bean already defined with the same name!
+2022-07-13 16:23:34.021 [WARN ] [main] [] org.mybatis.spring.mapper.ClassPathMapperScanner [44] - No MyBatis mapper was found in '[com.example.edu.mapper]' package. Please check your configuration.
+2022-07-13 16:23:34.202 [INFO ] [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer [108] - Tomcat initialized with port(s): 8001 (http)
+2022-07-13 16:23:34.207 [INFO ] [main] [] org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8001"]
+2022-07-13 16:23:34.207 [INFO ] [main] [] org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+2022-07-13 16:23:34.207 [INFO ] [main] [] org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-13 16:23:34.250 [INFO ] [main] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+2022-07-13 16:23:34.250 [INFO ] [main] [] o.s.b.w.s.c.ServletWebServerApplicationContext [292] - Root WebApplicationContext: initialization completed in 633 ms
+2022-07-13 16:23:34.329 [INFO ] [main] [] com.zaxxer.hikari.HikariDataSource [110] - HikariPool-1 - Starting...
+2022-07-13 16:23:34.519 [INFO ] [main] [] com.zaxxer.hikari.HikariDataSource [123] - HikariPool-1 - Start completed.
+2022-07-13 16:23:34.711 [INFO ] [main] [] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-13 16:23:34.961 [INFO ] [main] [] org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8001"]
+2022-07-13 16:23:34.970 [INFO ] [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer [220] - Tomcat started on port(s): 8001 (http) with context path ''
+2022-07-13 16:23:34.971 [INFO ] [main] [] s.d.s.web.plugins.DocumentationPluginsBootstrapper [151] - Context refreshed
+2022-07-13 16:23:34.977 [INFO ] [main] [] s.d.s.web.plugins.DocumentationPluginsBootstrapper [154] - Found 1 custom documentation plugin(s)
+2022-07-13 16:23:34.987 [INFO ] [main] [] s.d.spring.web.scanners.ApiListingReferenceScanner [41] - Scanning for api listing references
+2022-07-13 16:23:35.054 [INFO ] [main] [] com.example.edu.application [61] - Started application in 1.675 seconds (JVM running for 2.071)
+2022-07-13 16:25:57.286 [INFO ] [SpringApplicationShutdownHook] [] com.zaxxer.hikari.HikariDataSource [350] - HikariPool-1 - Shutdown initiated...
+2022-07-13 16:25:57.290 [INFO ] [SpringApplicationShutdownHook] [] com.zaxxer.hikari.HikariDataSource [352] - HikariPool-1 - Shutdown completed.

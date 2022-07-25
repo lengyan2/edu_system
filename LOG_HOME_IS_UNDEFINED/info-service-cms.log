@@ -1,0 +1,169 @@
+2022-07-19 14:25:08.706 [INFO ] [main] [] com.example.cms.cmsApplication [634] - No active profile set, falling back to 1 default profile: "default"
+2022-07-19 14:25:08.933 [WARN ] [main] [] org.mybatis.spring.mapper.ClassPathMapperScanner [44] - No MyBatis mapper was found in '[com.example.cms]' package. Please check your configuration.
+2022-07-19 14:25:08.968 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [262] - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-19 14:25:08.970 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-19 14:25:08.979 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2022-07-19 14:25:09.081 [INFO ] [main] [] o.springframework.cloud.context.scope.GenericScope [283] - BeanFactory id=5eb9f879-6b81-39f9-ae3d-4b54b82967e1
+2022-07-19 14:25:09.228 [INFO ] [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer [108] - Tomcat initialized with port(s): 8004 (http)
+2022-07-19 14:25:09.231 [INFO ] [main] [] org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8004"]
+2022-07-19 14:25:09.232 [INFO ] [main] [] org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+2022-07-19 14:25:09.232 [INFO ] [main] [] org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-19 14:25:09.282 [INFO ] [main] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+2022-07-19 14:25:09.282 [INFO ] [main] [] o.s.b.w.s.c.ServletWebServerApplicationContext [292] - Root WebApplicationContext: initialization completed in 569 ms
+2022-07-19 14:25:09.415 [INFO ] [main] [] com.zaxxer.hikari.HikariDataSource [110] - HikariPool-1 - Starting...
+2022-07-19 14:25:09.576 [INFO ] [main] [] com.zaxxer.hikari.HikariDataSource [123] - HikariPool-1 - Start completed.
+2022-07-19 14:25:09.670 [WARN ] [main] [] com.netflix.config.sources.URLConfigurationSource [126] - No URLs will be polled as dynamic configuration sources.
+2022-07-19 14:25:09.670 [INFO ] [main] [] com.netflix.config.sources.URLConfigurationSource [127] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-19 14:25:09.672 [WARN ] [main] [] com.netflix.config.sources.URLConfigurationSource [126] - No URLs will be polled as dynamic configuration sources.
+2022-07-19 14:25:09.672 [INFO ] [main] [] com.netflix.config.sources.URLConfigurationSource [127] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-19 14:25:10.039 [WARN ] [main] [] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [82] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-07-19 14:25:10.211 [INFO ] [main] [] org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8004"]
+2022-07-19 14:25:10.226 [INFO ] [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer [220] - Tomcat started on port(s): 8004 (http) with context path ''
+2022-07-19 14:25:10.337 [INFO ] [main] [] c.a.cloud.nacos.registry.NacosServiceRegistry [75] - nacos registry, DEFAULT_GROUP service-cms 192.168.2.26:8004 register finished
+2022-07-19 14:25:10.347 [INFO ] [main] [] com.example.cms.cmsApplication [61] - Started cmsApplication in 2.095 seconds (JVM running for 3.369)
+2022-07-19 14:26:07.701 [WARN ] [Thread-9] [] com.alibaba.nacos.common.http.HttpClientBeanHolder [108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-19 14:26:07.701 [WARN ] [Thread-15] [] com.alibaba.nacos.common.notify.NotifyCenter [145] - [NotifyCenter] Start destroying Publisher
+2022-07-19 14:26:07.702 [WARN ] [Thread-15] [] com.alibaba.nacos.common.notify.NotifyCenter [162] - [NotifyCenter] Destruction of the end
+2022-07-19 14:26:07.707 [WARN ] [Thread-9] [] com.alibaba.nacos.common.http.HttpClientBeanHolder [114] - [HttpClientBeanHolder] Destruction of the end
+2022-07-19 14:26:07.748 [INFO ] [SpringApplicationShutdownHook] [] c.a.cloud.nacos.registry.NacosServiceRegistry [90] - De-registering from Nacos Server now...
+2022-07-19 14:26:07.772 [INFO ] [SpringApplicationShutdownHook] [] c.a.cloud.nacos.registry.NacosServiceRegistry [110] - De-registration finished.
+2022-07-19 14:26:14.332 [WARN ] [SpringApplicationShutdownHook] [] o.s.beans.factory.support.DisposableBeanAdapter [329] - Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-07-19 14:26:14.335 [INFO ] [SpringApplicationShutdownHook] [] com.zaxxer.hikari.HikariDataSource [350] - HikariPool-1 - Shutdown initiated...
+2022-07-19 14:26:14.354 [INFO ] [SpringApplicationShutdownHook] [] com.zaxxer.hikari.HikariDataSource [352] - HikariPool-1 - Shutdown completed.
+2022-07-19 14:26:17.740 [INFO ] [main] [] com.example.cms.cmsApplication [634] - No active profile set, falling back to 1 default profile: "default"
+2022-07-19 14:26:18.000 [WARN ] [main] [] org.mybatis.spring.mapper.ClassPathMapperScanner [44] - No MyBatis mapper was found in '[com.example.cms]' package. Please check your configuration.
+2022-07-19 14:26:18.029 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [262] - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-19 14:26:18.030 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-19 14:26:18.054 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [201] - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-07-19 14:26:18.186 [INFO ] [main] [] o.springframework.cloud.context.scope.GenericScope [283] - BeanFactory id=5eb9f879-6b81-39f9-ae3d-4b54b82967e1
+2022-07-19 14:26:18.352 [INFO ] [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer [108] - Tomcat initialized with port(s): 8004 (http)
+2022-07-19 14:26:18.357 [INFO ] [main] [] org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8004"]
+2022-07-19 14:26:18.358 [INFO ] [main] [] org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+2022-07-19 14:26:18.358 [INFO ] [main] [] org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-19 14:26:18.410 [INFO ] [main] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+2022-07-19 14:26:18.411 [INFO ] [main] [] o.s.b.w.s.c.ServletWebServerApplicationContext [292] - Root WebApplicationContext: initialization completed in 663 ms
+2022-07-19 14:26:18.546 [INFO ] [main] [] com.zaxxer.hikari.HikariDataSource [110] - HikariPool-1 - Starting...
+2022-07-19 14:26:18.698 [INFO ] [main] [] com.zaxxer.hikari.HikariDataSource [123] - HikariPool-1 - Start completed.
+2022-07-19 14:26:18.785 [WARN ] [main] [] com.netflix.config.sources.URLConfigurationSource [126] - No URLs will be polled as dynamic configuration sources.
+2022-07-19 14:26:18.785 [INFO ] [main] [] com.netflix.config.sources.URLConfigurationSource [127] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-19 14:26:18.786 [WARN ] [main] [] com.netflix.config.sources.URLConfigurationSource [126] - No URLs will be polled as dynamic configuration sources.
+2022-07-19 14:26:18.786 [INFO ] [main] [] com.netflix.config.sources.URLConfigurationSource [127] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-19 14:26:19.262 [WARN ] [main] [] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [82] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-07-19 14:26:19.543 [INFO ] [main] [] org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8004"]
+2022-07-19 14:26:19.555 [INFO ] [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer [220] - Tomcat started on port(s): 8004 (http) with context path ''
+2022-07-19 14:26:19.597 [INFO ] [main] [] c.a.cloud.nacos.registry.NacosServiceRegistry [75] - nacos registry, DEFAULT_GROUP service-cms 192.168.2.26:8004 register finished
+2022-07-19 14:26:19.612 [INFO ] [main] [] com.example.cms.cmsApplication [61] - Started cmsApplication in 2.716 seconds (JVM running for 3.099)
+2022-07-19 14:26:28.866 [INFO ] [http-nio-8004-exec-3] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-19 14:26:28.867 [INFO ] [http-nio-8004-exec-3] [] org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+2022-07-19 14:26:28.874 [INFO ] [http-nio-8004-exec-3] [] org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 6 ms
+2022-07-19 14:30:19.624 [WARN ] [Thread-15] [] com.alibaba.nacos.common.notify.NotifyCenter [145] - [NotifyCenter] Start destroying Publisher
+2022-07-19 14:30:19.622 [WARN ] [Thread-9] [] com.alibaba.nacos.common.http.HttpClientBeanHolder [108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-19 14:30:19.629 [WARN ] [Thread-15] [] com.alibaba.nacos.common.notify.NotifyCenter [162] - [NotifyCenter] Destruction of the end
+2022-07-19 14:30:19.632 [WARN ] [Thread-9] [] com.alibaba.nacos.common.http.HttpClientBeanHolder [114] - [HttpClientBeanHolder] Destruction of the end
+2022-07-19 14:30:19.687 [INFO ] [SpringApplicationShutdownHook] [] c.a.cloud.nacos.registry.NacosServiceRegistry [90] - De-registering from Nacos Server now...
+2022-07-19 14:30:19.710 [INFO ] [SpringApplicationShutdownHook] [] c.a.cloud.nacos.registry.NacosServiceRegistry [110] - De-registration finished.
+2022-07-19 14:30:23.926 [WARN ] [SpringApplicationShutdownHook] [] o.s.beans.factory.support.DisposableBeanAdapter [329] - Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-07-19 14:30:23.931 [INFO ] [SpringApplicationShutdownHook] [] com.zaxxer.hikari.HikariDataSource [350] - HikariPool-1 - Shutdown initiated...
+2022-07-19 14:30:23.940 [INFO ] [SpringApplicationShutdownHook] [] com.zaxxer.hikari.HikariDataSource [352] - HikariPool-1 - Shutdown completed.
+2022-07-19 14:30:27.947 [INFO ] [main] [] com.example.cms.cmsApplication [634] - No active profile set, falling back to 1 default profile: "default"
+2022-07-19 14:30:28.276 [WARN ] [main] [] org.mybatis.spring.mapper.ClassPathMapperScanner [44] - No MyBatis mapper was found in '[com.example.cms]' package. Please check your configuration.
+2022-07-19 14:30:28.358 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [262] - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-19 14:30:28.360 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-19 14:30:28.393 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [201] - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-07-19 14:30:28.552 [INFO ] [main] [] o.springframework.cloud.context.scope.GenericScope [283] - BeanFactory id=5eb9f879-6b81-39f9-ae3d-4b54b82967e1
+2022-07-19 14:30:28.749 [INFO ] [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer [108] - Tomcat initialized with port(s): 8004 (http)
+2022-07-19 14:30:28.755 [INFO ] [main] [] org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8004"]
+2022-07-19 14:30:28.756 [INFO ] [main] [] org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+2022-07-19 14:30:28.756 [INFO ] [main] [] org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-19 14:30:28.812 [INFO ] [main] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+2022-07-19 14:30:28.812 [INFO ] [main] [] o.s.b.w.s.c.ServletWebServerApplicationContext [292] - Root WebApplicationContext: initialization completed in 857 ms
+2022-07-19 14:30:28.960 [INFO ] [main] [] com.zaxxer.hikari.HikariDataSource [110] - HikariPool-1 - Starting...
+2022-07-19 14:30:29.111 [INFO ] [main] [] com.zaxxer.hikari.HikariDataSource [123] - HikariPool-1 - Start completed.
+2022-07-19 14:30:29.201 [WARN ] [main] [] com.netflix.config.sources.URLConfigurationSource [126] - No URLs will be polled as dynamic configuration sources.
+2022-07-19 14:30:29.201 [INFO ] [main] [] com.netflix.config.sources.URLConfigurationSource [127] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-19 14:30:29.202 [WARN ] [main] [] com.netflix.config.sources.URLConfigurationSource [126] - No URLs will be polled as dynamic configuration sources.
+2022-07-19 14:30:29.203 [INFO ] [main] [] com.netflix.config.sources.URLConfigurationSource [127] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-19 14:30:29.580 [WARN ] [main] [] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [82] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-07-19 14:30:29.752 [INFO ] [main] [] org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8004"]
+2022-07-19 14:30:29.763 [INFO ] [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer [220] - Tomcat started on port(s): 8004 (http) with context path ''
+2022-07-19 14:30:29.801 [INFO ] [main] [] c.a.cloud.nacos.registry.NacosServiceRegistry [75] - nacos registry, DEFAULT_GROUP service-cms 192.168.2.26:8004 register finished
+2022-07-19 14:30:29.810 [INFO ] [main] [] com.example.cms.cmsApplication [61] - Started cmsApplication in 2.518 seconds (JVM running for 2.821)
+2022-07-19 14:30:43.904 [WARN ] [Thread-8] [] com.alibaba.nacos.common.http.HttpClientBeanHolder [108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-19 14:30:43.904 [WARN ] [Thread-14] [] com.alibaba.nacos.common.notify.NotifyCenter [145] - [NotifyCenter] Start destroying Publisher
+2022-07-19 14:30:43.905 [WARN ] [Thread-14] [] com.alibaba.nacos.common.notify.NotifyCenter [162] - [NotifyCenter] Destruction of the end
+2022-07-19 14:30:43.906 [WARN ] [Thread-8] [] com.alibaba.nacos.common.http.HttpClientBeanHolder [114] - [HttpClientBeanHolder] Destruction of the end
+2022-07-19 14:30:43.930 [INFO ] [SpringApplicationShutdownHook] [] c.a.cloud.nacos.registry.NacosServiceRegistry [90] - De-registering from Nacos Server now...
+2022-07-19 14:30:43.952 [INFO ] [SpringApplicationShutdownHook] [] c.a.cloud.nacos.registry.NacosServiceRegistry [110] - De-registration finished.
+2022-07-19 14:30:50.866 [WARN ] [SpringApplicationShutdownHook] [] o.s.beans.factory.support.DisposableBeanAdapter [329] - Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-07-19 14:30:50.869 [INFO ] [SpringApplicationShutdownHook] [] com.zaxxer.hikari.HikariDataSource [350] - HikariPool-1 - Shutdown initiated...
+2022-07-19 14:30:50.875 [INFO ] [SpringApplicationShutdownHook] [] com.zaxxer.hikari.HikariDataSource [352] - HikariPool-1 - Shutdown completed.
+2022-07-19 14:30:55.107 [INFO ] [main] [] com.example.cms.cmsApplication [634] - No active profile set, falling back to 1 default profile: "default"
+2022-07-19 14:30:55.349 [WARN ] [main] [] org.mybatis.spring.mapper.ClassPathMapperScanner [44] - No MyBatis mapper was found in '[com.example.cms]' package. Please check your configuration.
+2022-07-19 14:30:55.377 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [262] - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-19 14:30:55.378 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-19 14:30:55.387 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [201] - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2022-07-19 14:30:55.495 [INFO ] [main] [] o.springframework.cloud.context.scope.GenericScope [283] - BeanFactory id=5eb9f879-6b81-39f9-ae3d-4b54b82967e1
+2022-07-19 14:30:55.634 [INFO ] [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer [108] - Tomcat initialized with port(s): 8004 (http)
+2022-07-19 14:30:55.638 [INFO ] [main] [] org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8004"]
+2022-07-19 14:30:55.638 [INFO ] [main] [] org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+2022-07-19 14:30:55.638 [INFO ] [main] [] org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-19 14:30:55.686 [INFO ] [main] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+2022-07-19 14:30:55.687 [INFO ] [main] [] o.s.b.w.s.c.ServletWebServerApplicationContext [292] - Root WebApplicationContext: initialization completed in 571 ms
+2022-07-19 14:30:55.825 [INFO ] [main] [] com.zaxxer.hikari.HikariDataSource [110] - HikariPool-1 - Starting...
+2022-07-19 14:30:56.000 [INFO ] [main] [] com.zaxxer.hikari.HikariDataSource [123] - HikariPool-1 - Start completed.
+2022-07-19 14:30:56.092 [WARN ] [main] [] com.netflix.config.sources.URLConfigurationSource [126] - No URLs will be polled as dynamic configuration sources.
+2022-07-19 14:30:56.092 [INFO ] [main] [] com.netflix.config.sources.URLConfigurationSource [127] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-19 14:30:56.094 [WARN ] [main] [] com.netflix.config.sources.URLConfigurationSource [126] - No URLs will be polled as dynamic configuration sources.
+2022-07-19 14:30:56.094 [INFO ] [main] [] com.netflix.config.sources.URLConfigurationSource [127] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-19 14:30:56.454 [WARN ] [main] [] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [82] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-07-19 14:30:56.643 [INFO ] [main] [] org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8004"]
+2022-07-19 14:30:56.655 [INFO ] [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer [220] - Tomcat started on port(s): 8004 (http) with context path ''
+2022-07-19 14:30:56.687 [INFO ] [main] [] c.a.cloud.nacos.registry.NacosServiceRegistry [75] - nacos registry, DEFAULT_GROUP service-cms 192.168.2.26:8004 register finished
+2022-07-19 14:30:56.696 [INFO ] [main] [] com.example.cms.cmsApplication [61] - Started cmsApplication in 2.272 seconds (JVM running for 2.575)
+2022-07-19 14:31:10.364 [INFO ] [http-nio-8004-exec-1] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-19 14:31:10.364 [INFO ] [http-nio-8004-exec-1] [] org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+2022-07-19 14:31:10.369 [INFO ] [http-nio-8004-exec-1] [] org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 4 ms
+2022-07-19 14:34:00.203 [WARN ] [Thread-14] [] com.alibaba.nacos.common.notify.NotifyCenter [145] - [NotifyCenter] Start destroying Publisher
+2022-07-19 14:34:00.202 [WARN ] [Thread-8] [] com.alibaba.nacos.common.http.HttpClientBeanHolder [108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-19 14:34:00.205 [WARN ] [Thread-14] [] com.alibaba.nacos.common.notify.NotifyCenter [162] - [NotifyCenter] Destruction of the end
+2022-07-19 14:34:00.206 [WARN ] [Thread-8] [] com.alibaba.nacos.common.http.HttpClientBeanHolder [114] - [HttpClientBeanHolder] Destruction of the end
+2022-07-19 14:34:00.248 [INFO ] [SpringApplicationShutdownHook] [] c.a.cloud.nacos.registry.NacosServiceRegistry [90] - De-registering from Nacos Server now...
+2022-07-19 14:34:00.268 [INFO ] [SpringApplicationShutdownHook] [] c.a.cloud.nacos.registry.NacosServiceRegistry [110] - De-registration finished.
+2022-07-19 14:34:08.105 [WARN ] [SpringApplicationShutdownHook] [] o.s.beans.factory.support.DisposableBeanAdapter [329] - Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-07-19 14:34:08.109 [INFO ] [SpringApplicationShutdownHook] [] com.zaxxer.hikari.HikariDataSource [350] - HikariPool-1 - Shutdown initiated...
+2022-07-19 14:34:08.119 [INFO ] [SpringApplicationShutdownHook] [] com.zaxxer.hikari.HikariDataSource [352] - HikariPool-1 - Shutdown completed.
+2022-07-19 14:34:13.028 [INFO ] [main] [] com.example.cms.cmsApplication [634] - No active profile set, falling back to 1 default profile: "default"
+2022-07-19 14:34:13.258 [WARN ] [main] [] org.mybatis.spring.mapper.ClassPathMapperScanner [44] - No MyBatis mapper was found in '[com.example.cms]' package. Please check your configuration.
+2022-07-19 14:34:13.288 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [262] - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-07-19 14:34:13.289 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-19 14:34:13.299 [INFO ] [main] [] o.s.d.r.config.RepositoryConfigurationDelegate [201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2022-07-19 14:34:13.425 [INFO ] [main] [] o.springframework.cloud.context.scope.GenericScope [283] - BeanFactory id=5eb9f879-6b81-39f9-ae3d-4b54b82967e1
+2022-07-19 14:34:13.571 [INFO ] [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer [108] - Tomcat initialized with port(s): 8004 (http)
+2022-07-19 14:34:13.575 [INFO ] [main] [] org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8004"]
+2022-07-19 14:34:13.575 [INFO ] [main] [] org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+2022-07-19 14:34:13.575 [INFO ] [main] [] org.apache.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-19 14:34:13.630 [INFO ] [main] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+2022-07-19 14:34:13.631 [INFO ] [main] [] o.s.b.w.s.c.ServletWebServerApplicationContext [292] - Root WebApplicationContext: initialization completed in 594 ms
+2022-07-19 14:34:13.768 [INFO ] [main] [] com.zaxxer.hikari.HikariDataSource [110] - HikariPool-1 - Starting...
+2022-07-19 14:34:13.924 [INFO ] [main] [] com.zaxxer.hikari.HikariDataSource [123] - HikariPool-1 - Start completed.
+2022-07-19 14:34:14.005 [WARN ] [main] [] com.netflix.config.sources.URLConfigurationSource [126] - No URLs will be polled as dynamic configuration sources.
+2022-07-19 14:34:14.005 [INFO ] [main] [] com.netflix.config.sources.URLConfigurationSource [127] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-19 14:34:14.007 [WARN ] [main] [] com.netflix.config.sources.URLConfigurationSource [126] - No URLs will be polled as dynamic configuration sources.
+2022-07-19 14:34:14.007 [INFO ] [main] [] com.netflix.config.sources.URLConfigurationSource [127] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-19 14:34:14.358 [WARN ] [main] [] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [82] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-07-19 14:34:14.505 [INFO ] [main] [] org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8004"]
+2022-07-19 14:34:14.515 [INFO ] [main] [] o.s.boot.web.embedded.tomcat.TomcatWebServer [220] - Tomcat started on port(s): 8004 (http) with context path ''
+2022-07-19 14:34:14.546 [INFO ] [main] [] c.a.cloud.nacos.registry.NacosServiceRegistry [75] - nacos registry, DEFAULT_GROUP service-cms 192.168.2.26:8004 register finished
+2022-07-19 14:34:14.554 [INFO ] [main] [] com.example.cms.cmsApplication [61] - Started cmsApplication in 2.218 seconds (JVM running for 2.837)
+2022-07-19 14:44:07.821 [INFO ] [http-nio-8004-exec-1] [] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-19 14:44:07.822 [INFO ] [http-nio-8004-exec-1] [] org.springframework.web.servlet.DispatcherServlet [525] - Initializing Servlet 'dispatcherServlet'
+2022-07-19 14:44:07.843 [INFO ] [http-nio-8004-exec-1] [] org.springframework.web.servlet.DispatcherServlet [547] - Completed initialization in 20 ms
+2022-07-19 15:03:46.607 [WARN ] [Thread-8] [] com.alibaba.nacos.common.http.HttpClientBeanHolder [108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-19 15:03:46.607 [WARN ] [Thread-14] [] com.alibaba.nacos.common.notify.NotifyCenter [145] - [NotifyCenter] Start destroying Publisher
+2022-07-19 15:03:46.608 [WARN ] [Thread-8] [] com.alibaba.nacos.common.http.HttpClientBeanHolder [114] - [HttpClientBeanHolder] Destruction of the end
+2022-07-19 15:03:46.609 [WARN ] [Thread-14] [] com.alibaba.nacos.common.notify.NotifyCenter [162] - [NotifyCenter] Destruction of the end
+2022-07-19 15:03:46.650 [INFO ] [SpringApplicationShutdownHook] [] c.a.cloud.nacos.registry.NacosServiceRegistry [90] - De-registering from Nacos Server now...
+2022-07-19 15:03:46.691 [INFO ] [SpringApplicationShutdownHook] [] c.a.cloud.nacos.registry.NacosServiceRegistry [110] - De-registration finished.
+2022-07-19 15:03:53.336 [WARN ] [SpringApplicationShutdownHook] [] o.s.beans.factory.support.DisposableBeanAdapter [329] - Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-07-19 15:03:53.342 [INFO ] [SpringApplicationShutdownHook] [] com.zaxxer.hikari.HikariDataSource [350] - HikariPool-1 - Shutdown initiated...
+2022-07-19 15:03:53.348 [INFO ] [SpringApplicationShutdownHook] [] com.zaxxer.hikari.HikariDataSource [352] - HikariPool-1 - Shutdown completed.

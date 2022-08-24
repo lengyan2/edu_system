@@ -56,7 +56,6 @@ public class CorsConfig {
         config.setAllowCredentials(true);
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource(new PathPatternParser());
         source.registerCorsConfiguration("/**", config);
-
         return new CorsWebFilter(source);
     }
 }

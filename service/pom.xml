@@ -28,12 +28,12 @@
     </properties>
 
     <dependencies>
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>-->
-<!--            <version>2.2.10.RELEASE</version>-->
-<!--        </dependency>-->
-<!--&lt;!&ndash;        &lt;!&ndash;hystrix依赖，主要是用  @HystrixCommand &ndash;&gt;&ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.cloud</groupId>-->
+        <!--            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>-->
+        <!--            <version>2.2.10.RELEASE</version>-->
+        <!--        </dependency>-->
+        <!--&lt;!&ndash;        &lt;!&ndash;hystrix依赖，主要是用  @HystrixCommand &ndash;&gt;&ndash;&gt;-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
@@ -41,7 +41,7 @@
         </dependency>
         <!--服务注册-->
 
-<!--        &lt;!&ndash;服务调用&ndash;&gt;-->
+        <!--        &lt;!&ndash;服务调用&ndash;&gt;-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
@@ -130,7 +130,6 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
-
         <dependency>
             <groupId>com.example</groupId>
             <artifactId>service-base</artifactId>

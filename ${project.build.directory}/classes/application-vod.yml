@@ -1,0 +1,13 @@
+aliyun:
+  vod:
+    file:
+      accessKeyId: LTAI5t6oV8zBYuRfccajo2Nj
+      accessKeySecret: Aq1ZKNMkGW9Ul9C5kLRxpBEA2e3xIH
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/guli
+    username: root
+    password: 12345678
